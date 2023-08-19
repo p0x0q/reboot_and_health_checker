@@ -4,14 +4,8 @@
 
 # 使い方
 
-## shell
-
-```
-[ -d "reboot_and_health_checker" ] && echo 1 || git clone https://github.com/p0x0q/reboot_and_health_checker.git && cd reboot_and_health_checker && python3 reboot_and_health_checker.sh --la 12
-```
-
 ## python3
 
 ```
-[ -d "reboot_and_health_checker" ] && echo 1 || git clone https://github.com/p0x0q/reboot_and_health_checker.git && cd reboot_and_health_checker && python3 reboot_and_health_checker.py --la 12
+[ -d "reboot_and_health_checker" ] && echo 1 || git clone https://github.com/p0x0q/reboot_and_health_checker.git && python3 reboot_and_health_checker/reboot_and_health_checker.py --la 12
 ```

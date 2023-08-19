@@ -25,5 +25,5 @@ if la > float(args.la):
     time.sleep(10)
     import subprocess
     subprocess.run("reboot",shell=True)
-    
-    
+else:
+    print("ok: loadaverage = {}".format(la))
